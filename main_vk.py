@@ -86,7 +86,7 @@ def quotes(code, year_start, month_start, day_start, year_end, month_end, day_en
     #print(df1[-5:])
     return ticker, open, high, low, closelast, perc_chg
 
-vk_session = vk_api.VkApi(token='50e4e1517114db9406c4e708b09138391c6a8ae570eece83e30a24725f66f83f7d0b400a4cee42d1b5f4a')
+vk_session = vk_api.VkApi(token='')
 longpoll = VkBotLongPoll(vk_session, '178962083')
 vk = vk_session.get_api()
 
